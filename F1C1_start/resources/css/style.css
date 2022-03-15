@@ -3,10 +3,7 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-<<<<<<< HEAD
   box-sizing: border-box;
-=======
->>>>>>> 0c33481a5f5e68d997686105ce9d437b8cf25cc0
 }
 
 .main-content {
@@ -69,11 +66,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-<<<<<<< HEAD
   height: 5.3125rem;
-=======
-  height: 85px;
->>>>>>> 0c33481a5f5e68d997686105ce9d437b8cf25cc0
   z-index: 100;
 }
 
@@ -158,19 +151,11 @@ header .mobile {
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
   padding: 0 6.25rem;
 }
 
 #sign-up-cta {
   padding: 0 5rem 3.5rem 5rem;
-=======
-  padding: 0 100px;
-}
-
-#sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
->>>>>>> 0c33481a5f5e68d997686105ce9d437b8cf25cc0
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
@@ -202,19 +187,13 @@ header .mobile {
 }
 
 #sign-up-cta .striking {
-<<<<<<< HEAD
   font-family: "Rubik-Regular", sans-serif;
   padding-bottom: .75rem;
   line-height: 1.4;
-=======
-  font-family: "Rubik", sans-serif;
-  padding-bottom: .75rem;
->>>>>>> 0c33481a5f5e68d997686105ce9d437b8cf25cc0
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
-<<<<<<< HEAD
   padding: 1.125rem 0;
    width: 25.5rem;
   /* height: 4rem; */
@@ -224,9 +203,6 @@ header .mobile {
 #sign-up-cta span {
   padding: 0;
   margin: 0;
-=======
-  padding: 1.25rem 7.25rem;
->>>>>>> 0c33481a5f5e68d997686105ce9d437b8cf25cc0
 }
 
 @media only screen and (max-width: 760px) {
@@ -295,6 +271,17 @@ header .mobile {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.feature .image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feature .content {
+  padding: 2.5rem 0;
 }
 
 .feature h2 {
@@ -362,8 +349,18 @@ header .mobile {
 }
 
 #filters-section .images-container {
-  max-width: 100%;
+  display: flex;
   padding: 0 1%;
+}
+
+#filters-section .image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  overflow: hidden;
 }
 
 @media only screen and (max-width: 760px) {
@@ -402,11 +399,11 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -415,7 +412,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
@@ -453,7 +450,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: .625rem;
   }
