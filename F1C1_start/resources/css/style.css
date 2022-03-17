@@ -112,6 +112,10 @@ header .mobile {
     display: none;
   }
 
+  header {
+    height: 3rem;
+  }
+
   header .mobile {
     display: block;
     width: 100%;
@@ -321,6 +325,10 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    padding: 1rem 0 1.875rem;
+  }
 }
 
 /* Filters Section */
@@ -414,6 +422,8 @@ header .mobile {
 
 #quotes-section .quote-citation {
   height: 1.875rem;
+  display: inline-flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 760px) {
@@ -421,7 +431,7 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
